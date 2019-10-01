@@ -1,6 +1,0 @@
-2019. 10. 01. tglim : mtTemp Display Ver 3.301
-  - "AT+CIPSTART=2,\"TCP\",\"lora.nineone.com\",80\r\n"
-  - "GET http://lora.nineone.com/json/list.asp?name=123"
-  - "GET http://lora.nineone.com/json/list.asp?name=345"
-  - HTTP test OK
-  
