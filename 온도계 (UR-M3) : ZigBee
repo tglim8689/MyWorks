@@ -1,7 +1,9 @@
 
-- 2019. 10. 03. 박상빈 주임 (UR_M3_H22_V2_14 -ZB-PtM)
+- 2019. 10. 03. 박상빈 주임 (UR_M3_H22_V2_14 -ZB-PtM) ==> UR M3 Ver 2.15 -ZB-PtM
   - 부팅속도가 전반적으로 느려짐
   - V2.14 : [usn.c:2622 7:665] [L]   USN not changed. : 스톱워치 8초
+          --> V2.15 : [usn.c:2653 2:566] [L]   USN not changed.
+              usn_recv_pkt() 에서 '\n'이 없는 경우 p_ctrl->rx_ix_st = p_ctrl->rx_tail; 구문 누락
   
   - V1.31 : [zb_fz760.c:2277 3:946] [H] ZB pwr on...  : 스톱워치 4초
           --> 버전확인기능 없음
@@ -13,8 +15,6 @@
           --> 버전확인기능 있음
           - 초기화면에서 멈추는 상황 발생 : 아무 키도 동작 안함. 자동 10분 후 재시작시 정상동작
           - get main sts : main_status=0x04000005. (폰트에러)
-  - V1.40 : [zb_fz760.c:2634 5:637] [H] RFID.Grp=F001,Ch=18,Ad : 스톱워치 6초
-          --> 버전확인기능 있음
-          - 초기화면에서 멈추는 상황 발생 : 아무 키도 동작 안함. 자동 10분 후 재시작시 정상동작
-          - get main sts : main_status=0x04000005. (폰트에러)
+  - V2.00 : [usn.c:2616 5:651] [L]   USN not changed. : 스톱워치 6초
+  - V2.09 : [usn.c:2592 11:620] [H] RFID.Grp=F001,Ch=18,Addr : 스톱워치 12초
   
