@@ -1,4 +1,10 @@
-2019. 10. 01. tglim : mtTemp Display Ver 3.301
+- 2019. 10. 04. tglim : mtTemp Display Ver 3.303
+  - #define FEATURE_SRV_LOG_TYPE            FEATURE_SRV_LOG_BY_WIFI
+  - 
+  - 
+  - 
+  
+- 2019. 10. 01. tglim : mtTemp Display Ver 3.301
   - "AT+CIPSTART=2,\"TCP\",\"lora.nineone.com\",80\r\n"
   - "GET http://lora.nineone.com/json/list.asp?name=123"
   - "GET http://lora.nineone.com/json/list.asp?name=345"
