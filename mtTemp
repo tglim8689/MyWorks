@@ -1,3 +1,11 @@
+- 2019. 10. 06. tglim : mtTemp Display Ver 3.400
+  - #define 추가 : HTTP 데이터 전송시 매트릭스 디스플레이 정지
+    #define MAT_FLAG_ZERO_ADDR              0x00000001
+    #define MAT_FLAG_STOP_DYN_CMD           0x00001000
+    #define MAT_FLAG_STOP_DYN_ACT           0x00002000
+    mat_stop_disp(); --> mat_start_disp();
+  - else if( main_run_info.comm_mode == MAIN_COMM_MODE_HTTP_RDY ) 추가 후 보라색 점 찍음
+  
 - 2019. 10. 04. tglim : mtTemp Display Ver 3.303
   - #define FEATURE_SRV_LOG_TYPE            FEATURE_SRV_LOG_BY_WIFI
   - 서버에 센서 데이터 저장
