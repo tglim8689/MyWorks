@@ -1,5 +1,13 @@
 
-- 2019. 10. 03. 박상빈 주임 (UR_M3_H22_V2_14 -ZB-PtM) ==> UR M3 Ver 2.15 -ZB-PtM
+- 2019. 10. 22. [HTTP] (UR_M3_H22_V0_07 -HT-PtM)
+  - HTTP :  DTS 기능 구현
+            GRL 기능 구현
+
+- 2019. 10. 18. [HTTP] (UR_M3_H22_V0_06 -HT-PtM)
+  - HTTP :  DTS 기능 구현
+            GRL 기능 구현
+
+- 2019. 10. 03. [ZigBee] 박상빈 주임 (UR_M3_H22_V2_14 -ZB-PtM) ==> UR M3 Ver 2.15 -ZB-PtM
   - 부팅속도가 전반적으로 느려짐
   - V2.14 : [usn.c:2622 7:665] [L]   USN not changed. : 스톱워치 8초
           --> V2.15 : [usn.c:2653 2:566] [L]   USN not changed.
