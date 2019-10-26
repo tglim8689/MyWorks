@@ -1,4 +1,7 @@
-- 2019. 10. 23. [ZigBee] (UR_M3_H22_V2_16 -HT-PtM)
+- 2019. 10. 26. [WiFi] (UR_M3_H22_V1_02 -WF-PtM)
+  - USN Loc. ID 입력방법을 감시기와 동일하게 수정 (김형규 대리 요청)
+
+- 2019. 10. 23. [ZigBee] (UR_M3_H22_V2_16 -ZB-PtM)
   - ZigBee module Version 읽어오는 버그 수정
 
 - 2019. 10. 22. [HTTP] (UR_M3_H22_V0_07 -HT-PtM)
