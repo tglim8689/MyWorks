@@ -1,1 +1,5 @@
-
+  
+- 2019. 12. 11. MeterCL Ver 0.54
+  - LCD 초기화 버그 수정 : lcd_fsmc_for_init()에서 버스 타이밍 늘림
+  - 침지측정시 버그 수정 : 침지측정 중에는 long-key로 리셋 외에는 정지할 수 없음
+  - USN version display 적용
