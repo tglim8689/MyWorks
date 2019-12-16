@@ -1,3 +1,9 @@
+- 2019. 12. 16. UM M4 Ver 1.30
+  - 셋업 모드에서 Cal. table size 버그(셋업모드에서 USN 버전정보 읽기 에러) 수정
+
+- 2019. 12. 16. UM M4 Ver 1.29
+  - Tx Data Clear 기능 버그 수정(김형규 대리 요청)
+
 - 2019. 12. 10. UM M4 Ver 1.28
   - LCD 초기화 버그 수정 : lcd_fsmc_for_init()에서 버스 타이밍 늘림
   - eep_hw_info를 Serial EEPROM으로 이동
