@@ -1,0 +1,5 @@
+2020. 01. 13.
+  NRF_GPIO_PIN_MAP(1,10) : Red LED
+  NRF_GPIO_PIN_MAP(1,13) : Green LED
+  NRF_GPIO_PIN_MAP(1,15) : Blue LED
+  
