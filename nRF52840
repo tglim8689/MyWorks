@@ -3,3 +3,4 @@
   NRF_GPIO_PIN_MAP(1,13) : Green LED
   NRF_GPIO_PIN_MAP(1,15) : Blue LED
   
+  SES 에서 Options=>Code=>Preprocessor=>Preprocess Definitions inherits를 클릭하면 하단에 "BOARD_PCA10056" 가 선언되어 있습니다.
