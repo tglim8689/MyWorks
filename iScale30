@@ -1,1 +1,7 @@
 2020. 1. 15. 
+- 2019. 10. 04. tglim : mtTemp Display Ver 3.303
+  - #define FEATURE_SRV_LOG_TYPE            FEATURE_SRV_LOG_BY_WIFI
+  - 서버에 센서 데이터 저장
+    GET http://gate.bizbot.co.kr:7000/sensordataregi.php?dtime=201910011112&deviceid=2003
+    &temp1=11.11&humid1=22.22&temp2=33.33&humid2=44.44&co2=55.55&o3=66.66&co=77.77&nh3=88.88&nf=99.99
+  - 저장된 데이터 확인
