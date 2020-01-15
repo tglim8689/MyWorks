@@ -1,5 +1,4 @@
-2020. 1. 15. 
-- 2019. 10. 04. tglim : mtTemp Display Ver 3.303
+2020. 1. 15. tglim : iScale30 Ver 0.19
   - #define FEATURE_SRV_LOG_TYPE            FEATURE_SRV_LOG_BY_WIFI
   - 서버에 센서 데이터 저장
     GET http://gate.bizbot.co.kr:7000/sensordataregi.php?dtime=201910011112&deviceid=2003
