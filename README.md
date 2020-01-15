@@ -3,6 +3,7 @@ My all works
 
 - BizBot
   - mtTemp
+  - nRF52840
   
 - FirstTech
   - UR-M3
