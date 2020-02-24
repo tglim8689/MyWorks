@@ -1,4 +1,7 @@
-- 2020. . . UM M4 Ver 1.
+2020. 2. 25. UM M4 Ver 1.32
+  - FAC_CODE 불일치시 CAL. 값은 업데이트 안함
+  - 캘값을 초기화 시키려면 : set eep init
+  - 캘값을 변경하려면 다시 calibration 수행
   - #include <intrinsics.h> : 기존 clk.c 파일에서 def_stm32fxxx.h 파일로 옮김
 
 - 2020. 1. 4. UM M4 Ver 1.31
