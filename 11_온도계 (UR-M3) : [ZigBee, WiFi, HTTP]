@@ -1,3 +1,8 @@
+2020. 2. 25. [All] (iMeal V1.15, HTML V0.23, HACCP V2.20)
+  - FAC_CODE 불일치시 CAL. 값은 업데이트 안함
+  - 캘값을 초기화 시키려면 : set eep default[dflt] 1234
+  - 캘값을 변경하려면 다시 calibration 수행
+
 2020. 1. 15. [ZigBee] (UR_M3_H22_V2_19 -ZB-PtM)
   - 초기화면(접시)에서 "측정" 버튼 누를 시 ZB는 화면변화 없음(온도표시 안함), 나머지는 온도표시.
 
