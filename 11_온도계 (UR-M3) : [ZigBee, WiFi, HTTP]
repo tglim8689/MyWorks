@@ -1,5 +1,5 @@
-2020. 2. 25. [All] (iMeal V1.15, HTML V0.23, HACCP V2.20)
-  - FAC_CODE 불일치시 CAL. 값은 업데이트 안함
+2020. 2. 25. [All] (iMeal V1.15, HTML V0.23, HACCP V2.21)
+  - FAC_CODE 불일치시 CAL. 값은 업데이트 안함, 단, 0x5A5A8680~0x5A5A8689 이외의 경우는 초기화
   - 캘값을 초기화 시키려면 : set eep default[dflt] 1234
   - 캘값을 변경하려면 다시 calibration 수행
 
