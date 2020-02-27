@@ -1,3 +1,7 @@
+2020. 2. 27. [All] (iMeal V1.15, HTML V0.23, HACCP V2.23)
+  - 부팅시 무한 반복현상 수정
+  - RTC에서 week 값이 1~7 이외의 값일 경우 DBG( ... ) 수행하면서 리셋됨
+
 2020. 2. 25. [All] (iMeal V1.15, HTML V0.23, HACCP V2.22)
   - FAC_CODE 불일치시 CAL. 값은 업데이트 안함, 단, 0x5A5A8680~0x5A5A8689 이외의 경우는 초기화
   - 캘값을 초기화 시키려면 : set eep default[dflt] 1234
