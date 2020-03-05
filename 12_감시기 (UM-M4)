@@ -1,3 +1,16 @@
+2020. 3. 5. UM M4 Ver 1.35  :: Ethernet 기능 적용 중
+  - DP83848 회로 부분 정상일 경우 Link LED까지는 무조건 동작(ON)되어야 함 (펌웨어 없어도 동작)
+    . STM407 측의 ETH_REF_CLK 단자는 입력임 ==> RMII 모드에서 외부 50MHz OSC를 PHY 칩과 동시에 입력해야 함
+  - cc.h 파일에서 PACK 부분 수정(compile warning)
+        /* define compiler specific symbols */
+        #if defined (__ICCARM__)
+
+        #define PACK_STRUCT_BEGIN __packed  // ==> 기존에는 __packed 부분 없었음
+        #define PACK_STRUCT_STRUCT 
+        #define PACK_STRUCT_END
+        #define PACK_STRUCT_FIELD(x) x
+        #define PACK_STRUCT_USE_INCLUDES
+
 2020. 2. 25. UM M4 Ver 1.32
   - FAC_CODE 불일치시 CAL. 값은 업데이트 안함, 단, 0x5A5A8680~0x5A5A8689 이외의 경우는 초기화
   - 캘값을 초기화 시키려면 : set eep init
