@@ -1,3 +1,13 @@
+2020. 3. 15. UM M4 Ver 1.38  :: Ethernet 기능 적용 중
+  - eep_hw_info.msg_mask : uint64로 변경
+  - MS Visual Studio -> 파일 -> 열기 -> 웹사이트 : 폴더를 하나의 웹사이트로 간주
+  - 추가 -> 새항목 -> HTML 페이지 : 기본 페이지 만들어 지지만 전체 지움
+  - 상단 "빠른실행(Ctrl+Q)"에서 "글꼴" 입력 -> Consolas:10p 선택
+  - 전체 지운 html 문서로 와서, html5 입력 후 "탭" 버튼을 누르면 기본 페이지 완성
+  
+  - 프로젝트화 : 파일 -> 새로만들기 -> Visual C# -> 웹 -> ASP.NET 웹 응용 프로그램(.NET Framwork)
+  - 이하는 위의 경우와 동일 : Ctrl+F5로 브라우저에서 실행
+  
 2020. 3. 5. UM M4 Ver 1.35  :: Ethernet 기능 적용 중
   - DP83848 회로 부분 정상일 경우 Link LED까지는 무조건 동작(ON)되어야 함 (펌웨어 없어도 동작)
     . STM407 측의 ETH_REF_CLK 단자는 입력임 ==> RMII 모드에서 외부 50MHz OSC를 PHY 칩과 동시에 입력해야 함
