@@ -1,4 +1,8 @@
   
+2020. 5. 17. MeterCL Ver 0.73
+  - 리셋을 위한 에러 회수 설정 기능 추가 (set eep rst_cnt 10)
+  - 센서보드 통신속도 수동 설정 기능 추가 (set eep tst_baud[tbaud] 9500)
+
 2020. 5. 16. MeterCL Ver 0.72
   - 패킷 재전송 주기 설정 기능 추가 (set eep time 1500)
 
