@@ -1,3 +1,11 @@
+2020. 5. 18. LED display concept
+  - Main : always ON
+  - LTE  : always ON / wink on error
+  - B/T  : always OFF / flash on active
+  - GPS  : always ON / wink on error
+  - Accl : flash on active
+  - SNS  : flash on active
+  
 2020. 1. 20. Created.
   -
   
