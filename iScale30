@@ -1,6 +1,5 @@
-2020. 1. 15. tglim : iScale30 Ver 0.19
-  - #define FEATURE_SRV_LOG_TYPE            FEATURE_SRV_LOG_BY_WIFI
-  - 서버에 센서 데이터 저장
-    GET http://gate.bizbot.co.kr:7000/sensordataregi.php?dtime=201910011112&deviceid=2003
-    &temp1=11.11&humid1=22.22&temp2=33.33&humid2=44.44&co2=55.55&o3=66.66&co=77.77&nh3=88.88&nf=99.99
-  - 저장된 데이터 확인
+2020. 6. 16. tglim : iScale30 Ver 0.55
+  - 공급대기시간 적용 : 정희중 요청사항...
+  - 지난 번에 영점이면 그냥 넘어가도 된다고 했는데... ㅠㅠ
+  - mbus_regs->t_dly_ms 추가함
+
