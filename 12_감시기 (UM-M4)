@@ -1,3 +1,8 @@
+2020. 7. 22. UM M4 Ver 1.42  :: Ethernet 기능 적용 중 --> MAC address RD 및 적용
+  - tch_init() 에서 mac_rd_addr() 호출해서 24AA02E48 ic의 MAC address를 읽어 옴
+  - if( main_mac_buff[0] == 0 ) : Default MAC 적용
+  - else : MAC ic에서 읽은 값으로 적용 <-- ethernetif.c
+
 2020. 3. 15. UM M4 Ver 1.38  :: Ethernet 기능 적용 중
   - eep_hw_info.msg_mask : uint64로 변경
   - MS Visual Studio -> 파일 -> 열기 -> 웹사이트 : 폴더를 하나의 웹사이트로 간주
