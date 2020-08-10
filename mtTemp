@@ -1,4 +1,11 @@
-- 2019. 10. 06. tglim : mtTemp Display Ver 3.400
+= 2020. 08. 10. tglim : mtTemp Display Ver 3.492
+  - snsMat 보드 ::
+    . 고농도 오존센서 인식 : mbus_regs->o3_hi 멤버변수 추가
+    . Leaf sensor에서 soil_type(0x20)이 1로 설정되어 온도가 80도 이상 나오는 버그 수정 (soil_type = 0)
+  - mtTemp3A 메인보드 ::
+    . 오존 농도가 10.0ppm 이상일 경우 main_log.o3.val = main_log.o3_hi;
+  
+= 2019. 10. 06. tglim : mtTemp Display Ver 3.400
   - #define 추가 : HTTP 데이터 전송시 매트릭스 디스플레이 정지
     #define MAT_FLAG_ZERO_ADDR              0x00000001
     #define MAT_FLAG_STOP_DYN_CMD           0x00001000
@@ -6,7 +13,7 @@
     mat_stop_disp(); --> mat_start_disp();
   - else if( main_run_info.comm_mode == MAIN_COMM_MODE_HTTP_RDY ) 추가 후 보라색 점 찍음
   
-- 2019. 10. 04. tglim : mtTemp Display Ver 3.303
+= 2019. 10. 04. tglim : mtTemp Display Ver 3.303
   - #define FEATURE_SRV_LOG_TYPE            FEATURE_SRV_LOG_BY_WIFI
   - 서버에 센서 데이터 저장
     GET http://gate.bizbot.co.kr:7000/sensordataregi.php?dtime=201910011112&deviceid=2003
@@ -15,7 +22,7 @@
     GET http://gate.bizbot.co.kr:7000/datalist.php?deviceid=2003
   - 데이터 저장시 리턴되는 html 내용이 누락됨, ISR priority 변경해도 잘 안됨...
   
-- 2019. 10. 01. tglim : mtTemp Display Ver 3.301
+= 2019. 10. 01. tglim : mtTemp Display Ver 3.301
   - "AT+CIPSTART=2,\"TCP\",\"lora.nineone.com\",80\r\n"
   - "GET http://lora.nineone.com/json/list.asp?name=123"
   - "GET http://lora.nineone.com/json/list.asp?name=345"
