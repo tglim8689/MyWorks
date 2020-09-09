@@ -2,7 +2,7 @@
 Recently works
 
 - 20200909 : Ver 0.22
-  - No crystal : 16MHz 동작 ==> 8MHz external Xtal 적용
+  - No crystal : 16MHz 동작 ==> 8MHz external Xtal 적용 : 180 MHz 동작
     - system_stm32f4xx.c : 
       #define PLL_M      5      // org=25
       #define PLL_N      225    // org=360
