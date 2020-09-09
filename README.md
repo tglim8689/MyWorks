@@ -1,21 +1,14 @@
-# Recently Works
+# DGIST Works
 Recently works
 
-- BizBot
-  - mtTemp
-  - nRF52840
-  
-- FirstTech
-  - UR-M3
-  - UM-M4
-  - testCL
-  
-- NineOne
-  - G4_IoT
-  
-- Scales
-  - iScale30
-  
-- DGIST
-  - rfECU / rfDSP
-  - Hello
+- 20200909 : Ver 0.22
+  - No crystal : 16MHz 동작 ==> 8MHz external Xtal 적용
+    - system_stm32f4xx.c : 
+      #define PLL_M      5      // org=25
+      #define PLL_N      225    // org=360
+      
+    - stm32f4xx.h : 
+      //  #define HSE_VALUE    ((uint32_t)25000000) /*!< Value of the External oscillator in Hz */
+      #define HSE_VALUE    ((uint32_t)8000000) /*!< Value of the External oscillator in Hz */
+
+  - 16MHz 에서 FFT(1024) 500msec ==> 18MHz 변경 후 FFT(1024) 60msec
