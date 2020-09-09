@@ -8,7 +8,7 @@ Recently works
       #define PLL_N      225    // org=360
       
     - stm32f4xx.h : 
-      //  #define HSE_VALUE    ((uint32_t)25000000) /*!< Value of the External oscillator in Hz */
-      #define HSE_VALUE    ((uint32_t)8000000) /*!< Value of the External oscillator in Hz */
+      //  #define HSE_VALUE    ((uint32_t)25000000)
+      #define HSE_VALUE    ((uint32_t)8000000)
 
   - 16MHz 에서 FFT(1024) 500msec ==> 18MHz 변경 후 FFT(1024) 60msec
