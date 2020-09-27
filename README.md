@@ -9,6 +9,7 @@ My all works
   - UR-M3
   - UM-M4
   - testCL
+  - insulPen
   
 - NineOne
   - G4_IoT
