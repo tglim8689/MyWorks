@@ -1,0 +1,6 @@
+- 20200928 : V0.000
+  - Power ON : 5V / 3.8mA board only
+              JTAG connect on : 9.4mA
+  - Test on SES : usbd - "HID 규격 마우스"로 인식
+                  usbd_cdc_acm - COM10
+                  
