@@ -1,3 +1,7 @@
+- 20201006 : V0.08
+  - Connection security failed:.... nRF Toolbox에 연결 안될때
+    SES -> Target -> Erase All 수행 후 다시 다운로드
+                  
 - 20200928 : V0.000
   - Power ON : 5V / 3.8mA board only
               JTAG connect on : 9.4mA
